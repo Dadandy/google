@@ -1,0 +1,132 @@
+html, body{
+
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	padding-left: 13px;
+}
+
+h1{
+	font-size: 90px;
+	font-family: 'arial',sans-serif;
+	margin-bottom: 20px;
+}
+h3{
+	font-size: 14px;
+	color: #3f3d3d;
+}
+
+.menu{
+	margin: 30px 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+.menu a{
+	font-family: 'arial',sans-serif;
+	font-size: 16px;
+}
+.connexion a{
+	background-color: #148dd1;
+	color: #ffffff;
+	padding: 7px 8px;
+	margin-left: 15px;
+	
+}
+
+.menu a:hover{
+	text-decoration: underline;
+}
+
+
+.title, .recherche, .bouton, .paragraphe{
+
+	display: flex;
+	justify-content: center;
+}
+
+.recherche, .bouton {
+
+	width: 100%;
+	height: 45px;
+	padding-left: 20px;
+
+}
+
+.recherche input{
+
+	width: 43%;
+	box-shadow: 0px 4px 5px 0px;
+	background: transparent;
+	border: medium none;
+}
+
+.bouton_1, .bouton_2{
+	margin-top: 25px;	
+}
+
+.bouton_1 input, .bouton_2 input{
+	background-color: #f8f8f8;
+	margin-left: 25px;
+	padding: 7px 18px;
+	/*opacity: 0.7;*/
+	border: 1px solid #c6c6c6;
+	color: #757575;
+}
+input:hover[type = "submit"]{
+	color: #000000;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	border: solid 1px;
+	border-radius: 4px;
+}
+.paragraphe{
+
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+.paragraphe a{
+	color: blue;
+}
+.paragraphe p{
+	font-size: 12px;
+}
+
+footer{
+	
+	background-color: #f2f2f2;
+	opacity: 0.7;
+	border-top: 1px solid #e4e4e4;
+
+}
+.content{
+	padding-bottom: 15px;
+}
+.sous-titre{
+	margin: 1px 0 0 13px;
+	padding-top: 1px;
+}
+.titre{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.titre a{
+	color: black;
+	font-size: 13px;
+}
+
+.titre .right, .titre .left {
+
+	padding-top: 15px;
+	padding-right: 20px;
+	
+}
